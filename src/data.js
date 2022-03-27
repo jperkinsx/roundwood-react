@@ -48,7 +48,7 @@ const about = [
     id: 2,
     title: "MASTERY",
     text:
-      "With over 40,000 hours dedicated to learning and developing his craft, Cline has achieved mastery status in his work. Thru this expertise comes true passion and commitment—a relentless drive to continue pushing forward in the journey of modern furniture artistry.",
+      "With over 51,000 hours dedicated to learning and developing his craft, Cline has achieved mastery status in his work. Thru this expertise comes true passion and commitment—a relentless drive to continue pushing forward in the journey of modern furniture artistry.",
     img: "cline_mastery",
     quote:
       "10,000 hours of practice is required to achieve the level of mastery associated with being a world-class expert.",
@@ -201,7 +201,7 @@ const collections = [
 ];
 
 //lightbox
-const galleryCategories = ["Elemental", "Raw", "Danish", "Modern", "Organic", "Asian"];
+const galleryCategories = ["Elemental", "Raw", "Modern", "Organic", "Danish", "Asian"];
 const galleries = [
   {
     src: "/img/gallery/elemental/molten_lava_hero.jpg",
@@ -316,11 +316,11 @@ const galleries = [
     category: "Elemental",
   },
   {
-    src: "/img/gallery/elemental/cosmic_barley.jpg",
-    thumbnail: "/img/gallery/elemental/cosmic_barley_thumbnail.jpg",
-    alt: "Cosmic Barley coffee table",
-    title: "Cosmic Barley – coffee table, 2020",
-    text: "Cosmic Barley",
+    src: "/img/gallery/elemental/lunar_lava.jpg",
+    thumbnail: "/img/gallery/elemental/lunar_lava_thumbnail.jpg",
+    alt: "Lunar Lava – Coffee table",
+    title: "Lunar Lava – Coffee table, 2021 – Magma series",
+    text: "Lunar Lava",
     category: "Elemental",
   },
   {
@@ -332,11 +332,11 @@ const galleries = [
     category: "Elemental",
   },
   {
-    src: "/img/gallery/elemental/buddy_branches.jpg",
-    thumbnail: "/img/gallery/elemental/buddy_branches_thumbnail.jpg",
-    alt: "Buddy Branches coffee table",
-    title: "Buddy Branches – coffee table, 2020",
-    text: "Buddy Branches",
+    src: "/img/gallery/elemental/atlas.jpg",
+    thumbnail: "/img/gallery/elemental/atlas_thumbnail.jpg",
+    alt: "Atlas – Coffee table",
+    title: "Atlas – Coffee table, 2021 – Terra series",
+    text: "Atlas",
     category: "Elemental",
   },
   {
@@ -348,11 +348,51 @@ const galleries = [
     category: "Elemental",
   },
   {
+    src: "/img/gallery/elemental/banff.jpg",
+    thumbnail: "/img/gallery/elemental/banff_thumbnail.jpg",
+    alt: "Banff – Coffee table",
+    title: "Banff – Coffee table, 2021  – Aqua series",
+    text: "Banff",
+    category: "Elemental",
+  },
+  {
+    src: "/img/gallery/elemental/wake_skate.jpg",
+    thumbnail: "/img/gallery/elemental/wake_skate_thumbnail.jpg",
+    alt: "Wake Skate – Coffee table",
+    title: "Wake Skate – Coffee table, 2021 – Astral series",
+    text: "Wake Skate",
+    category: "Elemental",
+  },
+  // {
+  //   src: "/img/gallery/elemental/sand_harbor.jpg",
+  //   thumbnail: "/img/gallery/elemental/sand_harbor_thumbnail.jpg",
+  //   alt: "Sand Harbor – Desk",
+  //   title: "Sand Harbor – Desk, 2021 – Aqua series",
+  //   text: "Sand Harbor",
+  //   category: "Elemental",
+  // },
+  {
+    src: "/img/gallery/elemental/cosmic_barley.jpg",
+    thumbnail: "/img/gallery/elemental/cosmic_barley_thumbnail.jpg",
+    alt: "Cosmic Barley coffee table",
+    title: "Cosmic Barley – coffee table, 2020",
+    text: "Cosmic Barley",
+    category: "Elemental",
+  },
+  {
+    src: "/img/gallery/elemental/buddy_branches.jpg",
+    thumbnail: "/img/gallery/elemental/buddy_branches_thumbnail.jpg",
+    alt: "Buddy Branches coffee table",
+    title: "Buddy Branches – coffee table, 2020",
+    text: "Buddy Branches",
+    category: "Elemental",
+  },
+  {
     src: "/img/gallery/raw/6foot_feather.jpg",
     thumbnail: "/img/gallery/raw/6foot_feather_thumbnail.jpg",
-    alt: "6 Foot Feather table",
-    title: "6 Foot Feather – community table, 2019",
-    text: "6 Foot Feather",
+    alt: "9 Foot Feather table",
+    title: "9 Foot Feather – community table, 2019",
+    text: "9 Foot Feather",
     category: "Raw",
   },
   {
@@ -404,6 +444,38 @@ const galleries = [
     category: "Raw",
   },
   {
+    src: "/img/gallery/raw/gypsy_fade.jpg",
+    thumbnail: "/img/gallery/raw/gypsy_fade_thumbnail.jpg",
+    alt: "Gyspy Fade – Dining table",
+    title: "Gyspy Fade – Dining table, 2021",
+    text: "Gyspy Fade",
+    category: "Raw",
+  },
+  {
+    src: "/img/gallery/modern/nesters_throne.jpg",
+    thumbnail: "/img/gallery/modern/nesters_throne_thumbnail.jpg",
+    alt: "Nester’s Throne bench",
+    title: "Nester’s Throne – entry bench, 2019",
+    text: "Nester’s Throne",
+    category: "Raw",
+  },
+  {
+    src: "/img/gallery/danish/biedermeier.jpg",
+    thumbnail: "/img/gallery/danish/biedermeier_thumbnail.jpg",
+    alt: "Aus dem Biedermeier – Coffee table",
+    title: "Aus dem Biedermeier – Coffee table, 2021",
+    text: "Aus dem Biedermeier",
+    category: "Danish",
+  },
+  {
+    src: "/img/gallery/danish/hornugle.jpg",
+    thumbnail: "/img/gallery/danish/hornugle_thumbnail.jpg",
+    alt: "Hornugle – Bed",
+    title: "Hornugle – Bed, 2021",
+    text: "Hornugle",
+    category: "Danish",
+  },
+  {
     src: "/img/gallery/danish/amber_vertebrae.jpg",
     thumbnail: "/img/gallery/danish/amber_vertebrae_thumbnail.jpg",
     alt: "Amber Vertebrae Table",
@@ -428,6 +500,14 @@ const galleries = [
     category: "Danish",
   },
   {
+    src: "/img/gallery/danish/cinnamon_chi_gong.jpg",
+    thumbnail: "/img/gallery/danish/cinnamon_chi_gong_thumbnail.jpg",
+    alt: "Cinnamon Chi Gong – Coffee table",
+    title: "Cinnamon Chi Gong – Coffee table, 2015",
+    text: "Cinnamon Chi Gong",
+    category: "Danish",
+  },
+  {
     id: 1,
     src: "/img/gallery/danish/chi_gong.jpg",
     thumbnail: "/img/gallery/danish/chi_gong_thumbnail.jpg",
@@ -448,9 +528,9 @@ const galleries = [
   {
     src: "/img/gallery/modern/brak_terra.jpg",
     thumbnail: "/img/gallery/modern/brak-terra_thumbnail.jpg",
-    alt: "Bräk-Terra Table",
-    title: "Bräk-Terra – dining table, 2018",
-    text: "Bräk-Terra",
+    alt: "Maple Mirrors – Dining table",
+    title: "Maple Mirrors – Dining table, 2021",
+    text: "Maple Mirrors",
     category: "Modern",
   },
   {
@@ -459,14 +539,6 @@ const galleries = [
     alt: "Golden Cloud Temple Table",
     title: "Golden Cloud Temple – banquette table, 2019",
     text: "Golden Cloud Temple",
-    category: "Modern",
-  },
-  {
-    src: "/img/gallery/modern/nesters_throne.jpg",
-    thumbnail: "/img/gallery/modern/nesters_throne_thumbnail.jpg",
-    alt: "Nester’s Throne bench",
-    title: "Nester’s Throne – entry bench, 2019",
-    text: "Nester’s Throne",
     category: "Modern",
   },
   {
@@ -510,6 +582,14 @@ const galleries = [
     category: "Modern",
   },
   {
+    src: "/img/gallery/modern/brak_terra.jpg",
+    thumbnail: "/img/gallery/modern/brak-terra_thumbnail.jpg",
+    alt: "Bräk-Terra Table",
+    title: "Bräk-Terra – dining table, 2018",
+    text: "Bräk-Terra",
+    category: "Modern",
+  },
+  {
     src: "/img/gallery/modern/the_mj.jpg",
     thumbnail: "/img/gallery/modern/the_mj_thumbnail.jpg",
     alt: "The “MJ” credenza",
@@ -550,6 +630,14 @@ const galleries = [
     title:
       "Meteor Katalox Dining Table – Collaboration with Striker Forge, 2015",
     text: "Meteor Katalox",
+    category: "Modern",
+  },
+  {
+    src: "/img/gallery/modern/tahoe_treetops.jpg",
+    thumbnail: "/img/gallery/modern/tahoe_treetops_thumbnail.jpg",
+    alt: "Tahoe Treetops – Console table",
+    title: "Tahoe Treetops – Console table, 2019",
+    text: "Tahoe Treetops",
     category: "Modern",
   },
   {
@@ -709,6 +797,14 @@ const galleries = [
     alt: "The Bonsai table",
     title: "The Bonsai – end table, 2016",
     text: "The Bonsai",
+    category: "Organic",
+  },
+  {
+    src: "/img/gallery/organic/mirror_pond.jpg",
+    thumbnail: "/img/gallery/organic/mirror_pond_thumbnail.jpg",
+    alt: "Mirror Pond – Coffee table",
+    title: "Mirror Pond – Coffee table, 2021",
+    text: "Mirror Pond",
     category: "Organic",
   },
   {
